@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow:
+
+# No sitemap declared here. Add one if you publish a sitemap later.

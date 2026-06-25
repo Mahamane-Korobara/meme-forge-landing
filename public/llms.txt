@@ -1,0 +1,4 @@
+# llms.txt - Minimal visibility declarations for AI crawlers
+# Replace or extend with your own allowed/disallowed entries.
+user-agent: *
+allow: /
