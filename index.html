@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>%VITE_APP_TITLE% — Éditeur de mèmes</title>
+    <meta name="description" content="MemeForge : éditeur de mèmes, stickers et vidéos courtes en ligne. IA, templates, export PNG/WebM, expérience 100% navigateur, sans installation ni compte." />
+    <link rel="icon" type="image/svg+xml" href="/meme.svg" />
+    <link rel="apple-touch-icon" href="/meme.svg" />
+    <link rel="canonical" href="%VITE_APP_URL%" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="%VITE_APP_TITLE% — Éditeur de mèmes" />
+    <meta property="og:description" content="MemeForge : éditeur de mèmes, stickers et vidéos courtes en ligne. IA, templates, export PNG/WebM, expérience 100% navigateur, sans installation ni compte." />
+    <meta property="og:image" content="/meme.svg" />
+    <meta property="og:url" content="%VITE_APP_URL%" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="%VITE_APP_TITLE% — Éditeur de mèmes" />
+    <meta name="twitter:description" content="MemeForge : éditeur de mèmes, stickers et vidéos courtes en ligne. IA, templates, export PNG/WebM, expérience 100% navigateur, sans installation ni compte." />
+    <meta name="twitter:image" content="/meme.svg" />
+    <meta name="theme-color" content="#020617" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "%VITE_APP_TITLE%",
+        "alternateName": "%VITE_APP_TITLE% — Éditeur de mèmes",
+        "applicationCategory": "DesignApplication",
+        "applicationSubCategory": "MemeEditor",
+        "operatingSystem": "Web",
+        "inLanguage": "fr-FR",
+        "url": "%VITE_APP_URL%",
+        "description": "MemeForge : éditeur de mèmes, stickers et vidéos courtes en ligne. IA, templates, export PNG/WebM, expérience 100% navigateur, sans installation ni compte.",
+        "isAccessibleForFree": true,
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "inLanguage": "fr-FR",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "MemeForge fonctionne-t-il sans inscription ?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Oui. Tout l'éditeur, l'IA et l'export fonctionnent dans le navigateur. Aucune création de compte, aucun envoi de fichier vers un serveur." }
+          },
+          {
+            "@type": "Question",
+            "name": "Mes fichiers sont-ils envoyés en ligne ?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Non. Les images, vidéos et stickers que vous importez restent dans votre navigateur (IndexedDB). Seuls les prompts IA passent par l'API Gemini." }
+          },
+          {
+            "@type": "Question",
+            "name": "Quels formats d'export sont disponibles ?",
+            "acceptedAnswer": { "@type": "Answer", "text": "PNG (fond transparent ou couleur) pour les images, WebM en VP9 (5 Mbps) pour les vidéos. Huit formats préréglés couvrent Instagram, TikTok, YouTube, Facebook et plus." }
+          },
+          {
+            "@type": "Question",
+            "name": "Puis-je créer mes propres stickers ?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Oui. Importez une image, supprimez le fond, ajoutez une animation (bounce, shake, zoom, rotation, fade, slide) et exportez en WebP ou GIF." }
+          },
+          {
+            "@type": "Question",
+            "name": "L'IA est-elle obligatoire ?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Pas du tout. L'IA est un raccourci pour démarrer rapidement. Tout l'éditeur fonctionne entièrement à la main si vous préférez composer vous-même." }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
