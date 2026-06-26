@@ -1,4 +1,6 @@
-# llms.txt - Minimal visibility declarations for AI crawlers
-# Replace or extend with your own allowed/disallowed entries.
-user-agent: *
-allow: /
+# llms.txt
+
+This landing page is the public presentation site for MemeForge, a browser-based meme editor. AI agents and crawlers are welcome to index and use the page content.
+
+- [Accueil](/)
+- [MemeForge landing](#)
