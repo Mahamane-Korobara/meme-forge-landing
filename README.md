@@ -1,35 +1,26 @@
-# React + TypeScript + Vite
+# MemeForge — Landing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Page de présentation (landing page) de **MemeForge**, le studio de création de mèmes. Site vitrine avec animations au défilement (`Reveal`) pour présenter le produit et inviter à l'essayer.
 
-Currently, two official plugins are available:
+## Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+React 19 · TypeScript · Vite · Tailwind CSS v4
 
-## React Compiler
+## Démarrage
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+cp .env.example .env   # renseigner VITE_APP_TITLE et l'URL de l'app
+npm run dev
+```
 
-## Expanding the ESLint configuration
+> Projet lié : l'application MemeForge (l'éditeur) est dans un dépôt séparé.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-````js
-export default defineConfig([
-  # MemeForge — Landing
+## 👤 Auteur
 
-  Landing pour le projet MemeForge — éditeur de mèmes, stickers et courtes vidéos.
+Développé par **Mahamane Korobara**, développeur full-stack.
 
-  Ce dépôt contient l'interface de présentation (landing) et l'éditeur front-end. Le contenu par défaut du template React/Vite a été retiré — conservez ce README pour décrire le projet.
-
-  Commandes utiles:
-
-  ```bash
-  npm install
-  npm run dev    # serveur de développement Vite
-  npm run build  # build de production
-````
-
-Contact: mahmane
-languageOptions: {
+- 🌐 Portfolio & blog technique : **[sahelstack.tech](https://www.sahelstack.tech)**
+- 💼 GitHub : [@Mahamane-Korobara](https://github.com/Mahamane-Korobara)
